@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html ng-app="myfirstApp">
   <head>
+    <style>
+    button {
+      
+    }
+span{
+  color: green;
+  border-style: dotted;
+}
+    </style>
     <meta charset="utf-8">
     <script src="angular.min.js"></script>
     <script src="app.js"></script>
     <title>My First Angular Js app</title>
   </head>
   <body>
+
     <h1>My first ng</h1>
-    <div ng-controller="MyFirstController">
+    <div class="ng" ng-controller="MyFirstController">
     <input type="text" ng-model="name">
-    Inside my input is :{{name}}
+    Inside my input is :<span>{{name}}</span>
+    <br>
+    <button type="submit" ng-model="hi"></button>
 
     </div>
   </body>
