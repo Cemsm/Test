@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Stick Fight Dashboard</title>
+    <style>
+
+    .pan{
+      font-size: 70px;
+      margin-top: 100px;
+    }
+
+    .HD {
+      font-size: 110px;
+      background-color: black;
+    }
+    .header {
+
+
+    color: white;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    opacity: 0.7;
+    text-shadow: 4px 4px 4px #ffffff;
+}
+      body{
+        background-image: url("bgimg.jpg");
+        background-repeat: repeat;
+      }
+
+      ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    opacity: 0.7;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    font-size: 40px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.center {
+    background-color: Black;
+    line-height: 200px;
+    height: 200px;
+    border: 3px solid lightgray;
+    text-align: center;
+    opacity: 0.7;
+  }
+
+.center p {
+  font-family: sans-serif;
+  font-size: 60px;
+  color: LightGray;
+  background-color: b;
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+
+  }
+
+  #StcScr {
+      text-align: center;
+      font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+  }
+
+  #StcScr td, #StcScr th {
+      text-align: center;
+      border: 1px solid #ddd;
+      padding: 8px;
+  }
+
+  #StcScr tr:nth-child(even){
+    color: LightGray;
+    background-color: #333;
+  }
+
+  #StcScr tr:hover {
+    color: LightGray;
+    background-color: #333;
+    opacity: 0.5;
+  }
+
+  #StcScr th {
+      text-align: center;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: #333;
+      color: white;
+      opacity: 0.5;
+  }
+
+  .TL{
+    text-align: center;
+    color:LightGray;
+
+  }
+
+
+
+  /* Style the tab */
+  .tab {
+      float: right;
+      border: 1px solid #ccc;
+      color: white;
+      background-color: #333;
+      width: 20%;
+      height: 300px;
+      opacity: 0.8;
+  }
+
+  /* Style the buttons inside the tab */
+  .tab button {
+      display: block;
+      background-color: inherit;
+      color: LightGray;
+      padding: 22px 16px;
+      width: 100%;
+      border: none;
+      outline: none;
+      text-align: left;
+      cursor: pointer;
+      transition: 0.3s;
+      font-size: 17px;
+  }
+
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+      background-color: #333;
+      color:lightgray;
+  }
+
+  /* Create an active/current "tab button" class */
+  .tab button.active {
+      color: lightgray;
+      background-color: #332;
+  }
+
+  /* Style the tab content */
+  .tabcontent {
+      color: lightgray;
+      float:right;
+      padding: 0px 12px;
+      border: 1px solid #ccc;
+      width: 50%;
+      border-left: none;
+      height: 300px;
+  }
+
+  .TB {
+    text-align: right;
+    font-size: 50px;
+  }
+
+.BG {
+  background-color: Black;
+
+}
+
+.BTN1 {
+width: 300px;
+height: 50px;
+}
+.BTN {
+  text-align: right;
+  font-size: 40px;
+}
+
+.TX {
+
+}
+    </style>
+  </head>
+  <body>
+
+    <div class="header">
+      <h1 class="HD" >Stick Fight</h1>
+
+    </div>
+
+    <ul>
+      <li><a class="active" href="index.html">خانه</a></li>
+      <li><a href="#news">اخبار</a></li>
+      <li><a href="#contact">ارتباط با ما</a></li>
+      <li><a href="#about">درباره استیک فایت</a></li>
+      <li><a href="shop.html"  target="_blank">داشبرد</a></li>
+      <li><a href="#login">ورود</a></li>
+    </ul>
+
+
+<div class="center">
+  <p>محل درج تبلیغات شما</p>
+</div>
+
+<div class="BG">
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen"><div class="BTN">استیک من یاب</div</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')"><div class="BTN">فروش استیک من</div></button>
+  <button class="tablinks" onclick="openCity(event ,'Exit')"><div class="BTN">استیک من ساز</div></button>
+</div>
+
+<div id="London" class="tabcontent">
+
+  <p class="TB">استیک من مورد علاقه ی خود را خریداری کنید</p>
+  <h1 class="TL">استیک من های آماده ی فروش</h1>
+  <table id="StcScr" width="1000" height="750">
+    <tr>
+      <th>Stick Man Level</th>
+      <th>Stick Man Id</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>STM_198541</td>
+      <td>15000 $</td>
+    </tr>
+    <tr>
+      <td>50</td>
+      <td>STM_154362</td>
+      <td>70000 $</td>
+    </tr>
+    <tr>
+      <td>66</td>
+      <td>STM_132458</td>
+      <td>94000 $</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>STM_124789</td>
+      <td>5000 $</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>STM_196572</td>
+      <td>10000 $</td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td>STM_547896</td>
+      <td>32000 $</td>
+    </tr>
+    <tr>
+      <td>100</td>
+      <td>STM_458796</td>
+      <td>300000 $</td>
+    </tr>
+    <tr>
+      <td>65</td>
+      <td>STM_127458</td>
+      <td>52000 $</td>
+    </tr>
+    <tr>
+      <td>50</td>
+      <td>STM_214569</td>
+      <td>49000 $</td>
+    </tr>
+    <tr>
+      <td>85</td>
+      <td>STM_687459</td>
+      <td>85000 $</td>
+    </tr>
+  </table>
+
+
+</div>
+
+<div id="Paris" class="tabcontent">
+
+  <p class="TB"> .استیک من خود را برای فروش قرار دهید</p>
+  <form class="" action="index.html" method="post">
+  <div class="pan">Stick Man Id :</span>  <input class="BTN1" type="text" name="" value="" size="60" placeholder="استیک من آی دی خود را وارد کنید">
+  <input type="button" name="" value="ثبت" class="BTN1">
+
+  </form>
+</div>
+
+<div id="Exit" class="tabcontent">
+  <p>سلام</p>
+
+</div>
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+</div>
+  </body>
+</html>

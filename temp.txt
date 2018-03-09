@@ -1,0 +1,58 @@
+<h1 class="TL">Weekly Competition Scores :</h1>
+<table id="StcScr">
+  <tr>
+    <th>Stick Man Level</th>
+    <th>Stick Man Id</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>25</td>
+    <td>STM_198541</td>
+    <td>15000 $</td>
+  </tr>
+  <tr>
+    <td>50</td>
+    <td>STM_154362</td>
+    <td>70000 $</td>
+  </tr>
+  <tr>
+    <td>66</td>
+    <td>STM_132458</td>
+    <td>94000 $</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>STM_124789</td>
+    <td>5000 $</td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>STM_196572</td>
+    <td>10000 $</td>
+  </tr>
+  <tr>
+    <td>40</td>
+    <td>STM_547896</td>
+    <td>32000 $</td>
+  </tr>
+  <tr>
+    <td>100</td>
+    <td>STM_458796</td>
+    <td>300000 $</td>
+  </tr>
+  <tr>
+    <td>65</td>
+    <td>STM_127458</td>
+    <td>52000 $</td>
+  </tr>
+  <tr>
+    <td>50</td>
+    <td>STM_214569</td>
+    <td>49000 $</td>
+  </tr>
+  <tr>
+    <td>85</td>
+    <td>STM_687459</td>
+    <td>85000 $</td>
+  </tr>
+</table>
